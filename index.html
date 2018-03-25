@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<title>ChessClub</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+ <script type="text/javascript">
+    var image1 = new Image()
+    image1.src = "image/p9.jpg"
+    var image2 = new Image()
+    image2.src = "image/p8.jpg"
+    var image3 = new Image()
+    image3.src = "image/p6.jpg"
+</script>
+<link rel="stylesheet" href="css/css.css" />
+<link rel="stylesheet" href="css/divuri.css" />
+</head>
+
+<body background="https://c1.staticflickr.com/3/2138/2348261557_3024551457.jpg" height:"100%"="" width:"100%"="">
+        
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">ChessClub</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Acasă</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Media <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="page/imagini.html">Imagini</a></li>
+            <li><a href="page/video.html">Video</a></li>
+            <li><a href="page/tabele.html">Tabele</a></li>
+
+          </ul>
+        </li>
+        <li><a href="page/lucr1.html">Lucrare1</a></li>
+        <li><a href="page/pers.html">Despre</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://www.facebook.com/vika.rotaru"><span class="glyphicon glyphicon-user"></span> Facebook</a></li>
+        <li><a href="page/formular.html"><span class="glyphicon glyphicon-user"></span>Log in</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+<div class='wrapper'>
+	<!-- image -->
+	<p><img src="iamge/i2.jpg" width="100%" height="600" name="slide" /></p>
+<script type="text/javascript">
+    var step=1;
+    function slideit()
+    {
+    document.images.slide.src = eval("image"+step+".src");
+    if(step<3)
+    step++;
+    else
+    step=1;
+    setTimeout("slideit()",4000);
+}
+slideit();
+</script>
+
+	
+</div>
+<footer>
+<p align="right">
+	      <a href="https://www.facebook.com/vika.rotaru">
+	     <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT5e86aolp_1A9O-jGkz6I1O-xcuBDspK5A-VY3dGFmEifQAb4mYg"width="32" height="32"></a>
+	      <a href="http://ok.ru/profile/370577985563">
+	     <img src="http://crimea-24.com/soc/odnoklassniki.png"></a>
+	      <a href="https://plus.google.com/100507002503195171550/posts">
+	     <img src="https://lh3.ggpht.com/smAOwqcEp7C_5VZa9FV4WnIMmqBuJV6RrMT8UiEglsc9npSmkm6zhvLIN1XjrH6w5w2x"width="32" height="32">
+	      <a href="mailto:vica.rotaru@gmail.com">
+	     <img src="http://3.bp.blogspot.com/-xoDjOaPeG1c/Upvwao4W9mI/AAAAAAADfu4/TqqU4dE8kkQ/s1600/gmail-logo+(1)-01.png"width="32" height="32"></a></p>
+	   <p align="center">&copy Rotaru Victoria </p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,33 @@
+@-webkit-keyframes slide {
+    from { background-position-y: 0; }
+    to { background-position-y: 78%; }
+}
+
+@-moz-keyframes slide {
+    from { background-position-y: 0; }
+	to { background-position-y: 78%; }
+}
+
+@-o-keyframes slide {
+    from { background-position-y: 0; }
+	to { background-position-y: 78%; }
+}
+
+@-keyframes slide {
+    from { background-position-y: 0; }
+	to { background-position-y: 78%; }
+}
+
+.navbar {
+	top:0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+}
+
+
+
+
+
+

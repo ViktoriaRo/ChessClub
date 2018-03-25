@@ -1,0 +1,87 @@
+div#menu {
+	margin-left: 50px;
+	margin-right: 100px;}
+
+
+li{
+	background: url(http://static.wixstatic.com/media/dee45f_d982689e36e043ecbefb67ce00b8ded3.gif) ;
+	}
+
+
+.main-ul li {
+			float:left;
+			width:15%;
+			text-align:center; 
+		  }
+
+
+.main-ul li a {
+	
+	display:block;
+	padding: 10px 10px 20px 10px;
+	text-decoration:none;
+	position: relative;
+	z-index: 500;
+	background-color: rgba(164, 164, 164, 0.2);
+	transition: all 1s;
+	  		}
+ 
+ 
+ .main-ul li a span{
+	display:block;
+	padding-top:10px;
+	font-weight:800;
+	font-size: 16px;
+	color: rgba(120, 120, 120, 0.9);
+	text-transform:uppercase;
+	font-family: 'Courier New';
+}
+
+.main-ul li:hover span{
+	color: white;
+	}
+
+
+
+
+	
+.main-ul li:nth-child(1):hover a{
+	background-color: rgba(206, 14, 9,0.8);
+	transform: rotate(-365deg);
+}
+
+.main-ul li:nth-child(2):hover a{
+	background-color: rgba(67, 239, 24, 0.8);
+	transform: rotate(365deg);
+}
+.main-ul li:nth-child(3):hover a{
+	background-color: rgba(207, 56, 192, 0.8);
+	transform: rotate(-365deg);
+}
+.main-ul li:nth-child(4):hover a{
+	background-color: rgba(255, 255, 9, 0.8);
+	transform: rotate(365deg);
+}
+.main-ul li:nth-child(5):hover a{
+	background-color: rgba(117,18,98,0.8);
+	transform: rotate(-365deg);
+}
+.main-ul li:nth-child(6):hover a{
+	background-color: rgba(33, 136, 215, 0.8);
+	transform: rotate(365deg);
+}
+.main-ul li:nth-child(7):hover a{
+	background-color: rgba(109, 109, 109, 0.8);
+	transform: rotate(-365deg);
+}
+.main-ul li:nth-child(8):hover a{
+	background-color: rgba(152, 120, 92, 0.8);
+	transform: rotate(365deg);
+}
+body {
+	line-height: 1;
+}
+ ul {
+	list-style: none;
+	
+}
